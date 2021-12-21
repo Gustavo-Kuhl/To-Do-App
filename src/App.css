@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", "Roboto", sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+.App,
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App {
+  padding: 1rem;
+}
